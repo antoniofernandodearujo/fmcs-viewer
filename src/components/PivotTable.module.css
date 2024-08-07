@@ -1,0 +1,20 @@
+.pivotTableContainer {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .pivotTableContainer {
+    padding: 0 10px; /* Adiciona algum padding nas laterais para telas pequenas */
+  }
+
+  .pivotTable {
+    font-size: 14px; /* Reduz o tamanho da fonte para telas pequenas */
+  }
+}
+
+.pivotTable {
+  min-width: 600px;
+}
